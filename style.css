@@ -5,10 +5,13 @@
 	margin: 2px;
 	cursor: pointer;
 	color: #fff;
-	background: transparent; 
+	background: transparent;
+}
+.calc{
+	background:linear-gradient(to right,# #5A2555,#BE8CE5 );
 }
 .textview{
-	width: 217px;
+	width: 275px;
 	margin: 5px;
 	height: 50px;
 	font-size: 25px;
@@ -23,20 +26,30 @@
 }
 body{
 	background: transparent;
-	background:linear-gradient(to right,#e91383,#3f51b5) ;
+	 background:linear-gradient(to left ,#46B5D1,#C70D3A) ;
+	/* background: linear-gradient(to right , #230338,#241663); */
 }
 .ft{
 	position: absolute;
 	margin-top: 50px;
-	font-size: 10px;
+	font-size: 20px;
 	margin-left: 5px;
+	
 
 }
 @keyframes example {
   from {font-style: italic;}
   to {font-weight: bold;}
 }
+@keyframes example {
+	0%   {color: red;font-style: sans-serif;}
+	25%  {color: yellow;}
+	50%  {color: blue;}
+	100% {color: rgb(0, 13, 128);}
+  }
 footer{
 	animation-name: example;
-  	animation-duration: 10s;
+	animation-delay: 2s;
+  	animation-duration:20s;
+	animation-direction: reverse;
 }
